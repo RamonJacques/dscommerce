@@ -61,11 +61,6 @@ public class Payment {
 	}
 
 	@Override
-	public String toString() {
-		return "Payment [id=" + id + ", moment=" + moment + ", order=" + order + "]";
-	}
-
-	@Override
 	public int hashCode() {
 		return Objects.hash(id);
 	}
